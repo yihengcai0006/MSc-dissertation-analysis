@@ -1,0 +1,265 @@
+Starting debug nested CV for batch0100...
+Output directory:
+/home/yihengcai0006/yihengcai_ucl_essay_work/thesis_features_analysis/results/batch0100/nested_cv/debug
+
+Cross-validation configuration:
+  outer folds: 5
+  outer repeats: 1
+  inner folds: 3
+  GridSearchCV n_jobs: 1
+
+Clear low/high dataset:
+  samples: 83
+  class counts: {'high': 57, 'low': 26}
+
+Formal feature sets:
+  residue_ligand: 21
+  residue_cofactor: 83
+  residue_residue: 3982
+  combined_all: 4086
+
+========================================================================
+Feature set: residue_ligand
+Input features: 21
+Outer models: 5
+k grid: [4, 8, 12, 'all']
+C grid: [0.01, 0.1, 1.0, 10.0, 100.0]
+========================================================================
+
+[residue_ligand] outer split 1/5 (repeat 1, fold 1)
+  train/test: 66/17
+  training counts: {'high': 46, 'low': 20}
+  best k/C: all / 0.01
+  inner BA: 0.575
+  outer BA/AUC/MCC: 0.727 / 0.909 / 0.477
+  selected features: 21
+  elapsed: 1.4 s
+
+[residue_ligand] outer split 2/5 (repeat 1, fold 2)
+  train/test: 66/17
+  training counts: {'high': 45, 'low': 21}
+  best k/C: 4 / 0.01
+  inner BA: 0.575
+  outer BA/AUC/MCC: 0.675 / 0.633 / 0.334
+  selected features: 4
+  elapsed: 1.4 s
+
+[residue_ligand] outer split 3/5 (repeat 1, fold 3)
+  train/test: 66/17
+  training counts: {'high': 45, 'low': 21}
+  best k/C: 12 / 0.01
+  inner BA: 0.598
+  outer BA/AUC/MCC: 0.508 / 0.600 / 0.015
+  selected features: 12
+  elapsed: 1.4 s
+
+[residue_ligand] outer split 4/5 (repeat 1, fold 4)
+  train/test: 67/16
+  training counts: {'high': 46, 'low': 21}
+  best k/C: 4 / 10
+  inner BA: 0.752
+  outer BA/AUC/MCC: 0.382 / 0.273 / -0.221
+  selected features: 4
+  elapsed: 1.4 s
+
+[residue_ligand] outer split 5/5 (repeat 1, fold 5)
+  train/test: 67/16
+  training counts: {'high': 46, 'low': 21}
+  best k/C: all / 0.01
+  inner BA: 0.611
+  outer BA/AUC/MCC: 0.764 / 0.782 / 0.493
+  selected features: 21
+  elapsed: 1.4 s
+
+========================================================================
+Feature set: residue_cofactor
+Input features: 83
+Outer models: 5
+k grid: [5, 10, 20, 40, 'all']
+C grid: [0.01, 0.1, 1.0, 10.0, 100.0]
+========================================================================
+
+[residue_cofactor] outer split 1/5 (repeat 1, fold 1)
+  train/test: 66/17
+  training counts: {'high': 46, 'low': 20}
+  best k/C: 40 / 1
+  inner BA: 0.613
+  outer BA/AUC/MCC: 0.614 / 0.530 / 0.227
+  selected features: 40
+  elapsed: 1.9 s
+
+[residue_cofactor] outer split 2/5 (repeat 1, fold 2)
+  train/test: 66/17
+  training counts: {'high': 45, 'low': 21}
+  best k/C: 20 / 100
+  inner BA: 0.595
+  outer BA/AUC/MCC: 0.508 / 0.483 / 0.015
+  selected features: 20
+  elapsed: 2.0 s
+
+[residue_cofactor] outer split 3/5 (repeat 1, fold 3)
+  train/test: 66/17
+  training counts: {'high': 45, 'low': 21}
+  best k/C: 10 / 0.1
+  inner BA: 0.760
+  outer BA/AUC/MCC: 0.608 / 0.500 / 0.207
+  selected features: 10
+  elapsed: 1.9 s
+
+[residue_cofactor] outer split 4/5 (repeat 1, fold 4)
+  train/test: 67/16
+  training counts: {'high': 46, 'low': 21}
+  best k/C: 5 / 0.1
+  inner BA: 0.698
+  outer BA/AUC/MCC: 0.618 / 0.491 / 0.221
+  selected features: 5
+  elapsed: 2.0 s
+
+[residue_cofactor] outer split 5/5 (repeat 1, fold 5)
+  train/test: 67/16
+  training counts: {'high': 46, 'low': 21}
+  best k/C: all / 100
+  inner BA: 0.564
+  outer BA/AUC/MCC: 0.518 / 0.564 / 0.035
+  selected features: 77
+  elapsed: 2.0 s
+
+========================================================================
+Feature set: residue_residue
+Input features: 3982
+Outer models: 5
+k grid: [5, 10, 20, 50]
+C grid: [0.01, 0.1, 1.0, 10.0, 100.0]
+========================================================================
+
+[residue_residue] outer split 1/5 (repeat 1, fold 1)
+  train/test: 66/17
+  training counts: {'high': 46, 'low': 20}
+  best k/C: 5 / 0.01
+  inner BA: 0.723
+  outer BA/AUC/MCC: 0.697 / 0.803 / 0.383
+  selected features: 5
+  elapsed: 8.8 s
+
+[residue_residue] outer split 2/5 (repeat 1, fold 2)
+  train/test: 66/17
+  training counts: {'high': 45, 'low': 21}
+  best k/C: 5 / 100
+  inner BA: 0.697
+  outer BA/AUC/MCC: 0.858 / 0.817 / 0.717
+  selected features: 5
+  elapsed: 8.9 s
+
+[residue_residue] outer split 3/5 (repeat 1, fold 3)
+  train/test: 66/17
+  training counts: {'high': 45, 'low': 21}
+  best k/C: 50 / 100
+  inner BA: 0.560
+  outer BA/AUC/MCC: 0.633 / 0.783 / 0.247
+  selected features: 50
+  elapsed: 9.2 s
+
+[residue_residue] outer split 4/5 (repeat 1, fold 4)
+  train/test: 67/16
+  training counts: {'high': 46, 'low': 21}
+  best k/C: 50 / 1
+  inner BA: 0.599
+  outer BA/AUC/MCC: 0.600 / 0.400 / 0.383
+  selected features: 50
+  elapsed: 8.6 s
+
+[residue_residue] outer split 5/5 (repeat 1, fold 5)
+  train/test: 67/16
+  training counts: {'high': 46, 'low': 21}
+  best k/C: 5 / 10
+  inner BA: 0.667
+  outer BA/AUC/MCC: 0.473 / 0.636 / -0.051
+  selected features: 5
+  elapsed: 8.6 s
+
+========================================================================
+Feature set: combined_all
+Input features: 4086
+Outer models: 5
+k grid: [5, 10, 20, 50]
+C grid: [0.01, 0.1, 1.0, 10.0, 100.0]
+========================================================================
+
+[combined_all] outer split 1/5 (repeat 1, fold 1)
+  train/test: 66/17
+  training counts: {'high': 46, 'low': 20}
+  best k/C: 5 / 0.01
+  inner BA: 0.723
+  outer BA/AUC/MCC: 0.697 / 0.803 / 0.383
+  selected features: 5
+  elapsed: 8.7 s
+
+[combined_all] outer split 2/5 (repeat 1, fold 2)
+  train/test: 66/17
+  training counts: {'high': 45, 'low': 21}
+  best k/C: 20 / 1
+  inner BA: 0.698
+  outer BA/AUC/MCC: 0.692 / 0.750 / 0.350
+  selected features: 20
+  elapsed: 8.7 s
+
+[combined_all] outer split 3/5 (repeat 1, fold 3)
+  train/test: 66/17
+  training counts: {'high': 45, 'low': 21}
+  best k/C: 20 / 100
+  inner BA: 0.606
+  outer BA/AUC/MCC: 0.733 / 0.817 / 0.426
+  selected features: 20
+  elapsed: 8.8 s
+
+[combined_all] outer split 4/5 (repeat 1, fold 4)
+  train/test: 67/16
+  training counts: {'high': 46, 'low': 21}
+  best k/C: 50 / 0.01
+  inner BA: 0.629
+  outer BA/AUC/MCC: 0.518 / 0.491 / 0.035
+  selected features: 50
+  elapsed: 8.6 s
+
+[combined_all] outer split 5/5 (repeat 1, fold 5)
+  train/test: 67/16
+  training counts: {'high': 46, 'low': 21}
+  best k/C: 10 / 1
+  inner BA: 0.553
+  outer BA/AUC/MCC: 0.618 / 0.691 / 0.221
+  selected features: 10
+  elapsed: 8.7 s
+
+========================================================================
+Dummy baseline: prior strategy
+========================================================================
+Dummy split 1/5: BA=0.500, accuracy=0.647
+Dummy split 2/5: BA=0.500, accuracy=0.706
+Dummy split 3/5: BA=0.500, accuracy=0.706
+Dummy split 4/5: BA=0.500, accuracy=0.688
+Dummy split 5/5: BA=0.500, accuracy=0.688
+
+========================================================================
+Nested-CV summary
+========================================================================
+         model_type      feature_set  balanced_accuracy_mean  balanced_accuracy_std  roc_auc_low_mean  roc_auc_low_std  mcc_mean  mcc_std  recall_low_mean  precision_low_mean
+        dummy_prior      dummy_prior                0.500000               0.000000          0.500000         0.000000  0.000000 0.000000         0.000000            0.000000
+logistic_regression     combined_all                0.651667               0.085530          0.710303         0.132285  0.282824 0.158346         0.653333            0.455556
+logistic_regression residue_cofactor                0.573333               0.055062          0.513636         0.033161  0.140990 0.106258         0.580000            0.385108
+logistic_regression   residue_ligand                0.611212               0.161228          0.639394         0.239298  0.219537 0.312001         0.680000            0.418730
+logistic_regression  residue_residue                0.652273               0.141233          0.687879         0.176413  0.335615 0.277020         0.533333            0.617143
+
+Output row counts:
+  model metrics: 20
+  model predictions: 332
+  best parameters: 20
+  selected-feature rows: 434
+  dummy metrics: 5
+  dummy predictions: 83
+
+Saved outputs to:
+/home/yihengcai0006/yihengcai_ucl_essay_work/thesis_features_analysis/results/batch0100/nested_cv/debug
+
+Total elapsed time: 2.01 minutes
+
+Done.

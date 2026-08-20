@@ -1,0 +1,2 @@
+scripts_old43_reference/06_predict_local.py:20:        default="provenance/rf_model_dist_below_10_new.pkl",
+scripts_old43_reference/06_predict_local.py:33:    model = joblib.load(args.model)

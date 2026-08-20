@@ -1,0 +1,45 @@
+Old RF versus improved QM/MM barriers
+47 complete structures — statistical summary
+================================================
+n: 47
+
+Correlation:
+  Pearson r: 0.138958
+  Pearson p-value: 0.35158
+  Pearson bootstrap 95% CI: [-0.109593, 0.382303]
+  Spearman rho: 0.133345
+  Spearman p-value: 0.371563
+  Spearman bootstrap 95% CI: [-0.162436, 0.393908]
+  Kendall tau: 0.085304
+  Kendall p-value: 0.398748
+
+Regression of RF prediction on QM/MM reference:
+  Slope: 0.044084
+  Intercept: 25.870615
+  Regression R-squared: 0.019309
+  Regression p-value: 0.35158
+  Slope standard error: 0.046833
+
+Prediction error:
+  MAE: 1.301379 kcal/mol
+  RMSE: 1.642445 kcal/mol
+  Mean offset (prediction-reference): -0.001153 kcal/mol
+  Median offset (prediction-reference): -0.032600 kcal/mol
+  Mean absolute residual: 1.301379
+  Maximum absolute residual: 3.916400
+
+Distributions:
+  Reference mean: 27.064894
+  Reference SD: 1.649941
+  Reference range: 7.380000
+  Prediction mean: 27.063740
+  Prediction SD: 0.523435
+  Prediction range: 1.743000
+  Prediction/reference SD ratio: 0.317245
+  Prediction/reference range ratio: 0.236179
+
+Bootstrap:
+  Resamples: 10000
+  Random seed: 20260801
+  Valid Pearson bootstrap samples: 10000
+  Valid Spearman bootstrap samples: 10000

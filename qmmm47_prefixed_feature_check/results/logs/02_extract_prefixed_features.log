@@ -1,0 +1,12 @@
+QMMM47 pre-fixed feature extraction
+============================================================
+
+Merged rows: 47
+
+Feature variation:
+        feature structural_label  n_unique  min_A  max_A  range_A   mean_A    std_A
+  PRO62-PRO1279    GLU62-SER1279        45  5.161  7.547    2.386 6.873213 0.509105
+PRO1275-PRO1276  PHE1275-ARG1276         1  1.347  1.347    0.000 1.347000 0.000000
+    PRO90-PRO92      PHE90-ASP92         1  3.103  3.103    0.000 3.102999 0.000000
+
+The three features were fixed independently from the February batch0100 nested-CV stability analysis. No screening of the 47-structure dataset was performed.

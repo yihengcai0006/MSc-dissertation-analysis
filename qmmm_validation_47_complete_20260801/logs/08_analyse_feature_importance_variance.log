@@ -1,0 +1,39 @@
+RF feature importance and variability summary
+=============================================
+Total model features: 4086
+Total RF importance: 1.0000000000
+
+Importance by feature type:
+  protein-protein: 0.986960 (98.696%), n=3982
+  protein-GTP: 0.010257 (1.026%), n=83
+  protein-LIG: 0.002782 (0.278%), n=21
+
+Feature variability:
+  Exactly zero-variance features: 3857
+  RF importance on exactly zero-variance features: 0.912899 (91.290%)
+  Effectively fixed features (range <= 0.001 Å): 3857
+  RF importance on effectively fixed features: 0.912899 (91.290%)
+  Near-zero-variance features (SD < 0.01 Å): 3866
+  RF importance on near-zero-variance features: 0.913639 (91.364%)
+
+Most important feature:
+  Name: PRO1281-PRO1391
+  RF importance: 0.2539027122
+  SD: 0.0000000000 Å
+  Range: 0.0000000000 Å
+
+Requested diagnostic feature: PRO1281-PRO1391
+  Importance rank: 1
+  RF importance: 0.2539027122
+  Importance percentage: 25.390%
+  Mean distance: 6.4450001717 Å
+  SD: 0.0000000000 Å
+  Minimum: 6.4450001717 Å
+  Maximum: 6.4450001717 Å
+  Range: 0.0000000000 Å
+  Unique values: 1
+
+Written: /home/yihengcai0006/yihengcai_ucl_essay_work/qmmm_validation_47/results/tables/feature_importance_variance_all.tsv
+Written: /home/yihengcai0006/yihengcai_ucl_essay_work/qmmm_validation_47/results/tables/top_100_rf_features_variance.tsv
+Written: /home/yihengcai0006/yihengcai_ucl_essay_work/qmmm_validation_47/results/tables/rf_importance_by_feature_type.tsv
+Written: /home/yihengcai0006/yihengcai_ucl_essay_work/qmmm_validation_47/results/statistics/feature_importance_variance_summary.txt

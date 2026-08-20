@@ -1,0 +1,47 @@
+================================================================================
+SCRIPT 09: STABLE FEATURE DISTRIBUTION ANALYSIS
+================================================================================
+Input table: /home/yihengcai0006/yihengcai_ucl_essay_work/thesis_features_analysis/results/batch0100/tables/features_with_barriers.parquet
+Input shape: (100, 83279)
+
+Group column:    group
+Molecule column: ligand_id
+Barrier column:  barrier
+
+Stable features found:
+  FOUND: PRO62-PRO1279
+  FOUND: PRO1275-PRO1276
+  FOUND: PRO90-PRO92
+
+All group counts:
+group
+high      57
+low       26
+middle    17
+
+Classifier-analysis group counts:
+_analysis_group
+low     26
+high    57
+
+QC PASSED: low=26, high=57, total=83.
+
+================================================================================
+RESULTS
+================================================================================
+        feature structural_label  n_low  n_high  low_mean_A  high_mean_A  high_minus_low_mean_A  cohens_d_low_minus_high  mannwhitney_p_raw raw_distance_direction
+  PRO62-PRO1279    GLU62–SER1279     26      57    7.661808     7.221456              -0.440352                 1.280961       1.001497e-07          higher_in_low
+PRO1275-PRO1276  PHE1275–ARG1276     26      57    1.346308     1.344123              -0.002185                 0.996129       2.459874e-04          higher_in_low
+    PRO90-PRO92      PHE90–ASP92     26      57    3.189346     3.074877              -0.114469                 0.977415       4.083292e-04          higher_in_low
+
+================================================================================
+OUTPUTS
+================================================================================
+/home/yihengcai0006/yihengcai_ucl_essay_work/thesis_features_analysis/results/batch0100/structural_interpretation/tables/09_stable_feature_group_statistics.tsv
+/home/yihengcai0006/yihengcai_ucl_essay_work/thesis_features_analysis/results/batch0100/structural_interpretation/tables/09_stable_feature_values.tsv
+/home/yihengcai0006/yihengcai_ucl_essay_work/thesis_features_analysis/results/batch0100/structural_interpretation/tables/09_stable_feature_stability_evidence.tsv
+/home/yihengcai0006/yihengcai_ucl_essay_work/thesis_features_analysis/results/batch0100/structural_interpretation/figures/09_stable_feature_low_high_distributions.png
+/home/yihengcai0006/yihengcai_ucl_essay_work/thesis_features_analysis/results/batch0100/structural_interpretation/figures/09_stable_feature_low_high_distributions.svg
+/home/yihengcai0006/yihengcai_ucl_essay_work/thesis_features_analysis/results/batch0100/structural_interpretation/logs/09_run_summary.txt
+
+SCRIPT 09 COMPLETE.

@@ -1,0 +1,46 @@
+Analysing feature-selection stability for batch0100...
+
+Input records:
+  selected-feature rows: 1644
+  outer-model parameter rows: 100
+  feature-manifest rows: 8172
+Saved stability figure: residue_residue
+Saved stability figure: combined_all
+
+========================================================================
+Candidate-feature stability
+========================================================================
+    feature_set         feature  selected_outer_folds  total_outer_folds  selection_frequency  median_coefficient_for_low  positive_direction_fraction  negative_direction_fraction dominant_direction  dominant_direction_fraction
+   combined_all PRO1275-PRO1276                    21                 25                 0.84                    0.977825                     0.952381                     0.047619        towards_low                     0.952381
+residue_residue PRO1275-PRO1276                    22                 25                 0.88                    1.304441                     0.954545                     0.045455        towards_low                     0.954545
+   combined_all   PRO62-PRO1279                    25                 25                 1.00                    1.590165                     1.000000                     0.000000        towards_low                     1.000000
+residue_residue   PRO62-PRO1279                    25                 25                 1.00                    1.590165                     1.000000                     0.000000        towards_low                     1.000000
+   combined_all     PRO90-PRO92                    20                 25                 0.80                    1.132717                     1.000000                     0.000000        towards_low                     1.000000
+residue_residue     PRO90-PRO92                    21                 25                 0.84                    1.141330                     0.952381                     0.047619        towards_low                     0.952381
+
+========================================================================
+Feature-set stability summary
+========================================================================
+     feature_set  n_candidate_features  n_outer_splits  mean_selected_features_per_outer_fold  median_selected_features_per_outer_fold  n_features_selected_at_least_once  n_features_frequency_ge_0_20  n_features_frequency_ge_0_50  n_features_frequency_ge_0_80  n_features_frequency_eq_1  maximum_selection_frequency
+  residue_ligand                    21              25                                  12.00                                     12.0                                 21                            21                            11                             4                          1                         1.00
+residue_cofactor                    83              25                                  20.96                                     20.0                                 77                            34                            12                             5                          0                         0.96
+ residue_residue                  3982              25                                  18.20                                     10.0                                171                            24                             6                             3                          1                         1.00
+    combined_all                  4086              25                                  14.60                                     10.0                                127                            18                             5                             3                          1                         1.00
+
+========================================================================
+Pairwise Jaccard summary
+========================================================================
+     feature_set  n_pairwise_comparisons  mean_jaccard  std_jaccard  median_jaccard  min_jaccard  max_jaccard
+    combined_all                     300      0.185802     0.092582        0.165158     0.034483     0.666667
+residue_cofactor                     300      0.338094     0.151854        0.363636     0.064935     1.000000
+  residue_ligand                     300      0.472285     0.253663        0.380952     0.066667     1.000000
+ residue_residue                     300      0.172463     0.077991        0.153846     0.037736     0.428571
+
+Scientific figures created: 2
+1. Top 15 residue-residue selection frequencies
+2. Top 15 combined-all selection frequencies
+
+Saved results to:
+/home/yihengcai0006/yihengcai_ucl_essay_work/thesis_features_analysis/results/batch0100/stability
+
+Done.

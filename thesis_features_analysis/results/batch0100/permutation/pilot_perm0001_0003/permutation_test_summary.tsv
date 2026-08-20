@@ -1,0 +1,5 @@
+feature_set	observed_mean_balanced_accuracy	null_mean_balanced_accuracy	null_std_balanced_accuracy	null_median_balanced_accuracy	null_min_balanced_accuracy	null_max_balanced_accuracy	n_permutations	n_null_ge_observed	permutation_p_value	p_value_formula
+residue_ligand	0.5828787878787879	0.5174444444444445	0.021232378494675755	0.506969696969697	0.5034848484848484	0.5418787878787878	3	0	0.25	(n_null_ge_observed + 1) / (n_permutations + 1)
+residue_cofactor	0.594030303030303	0.5115151515151516	0.056443988017214244	0.5043939393939394	0.4589696969696969	0.5711818181818182	3	0	0.25	(n_null_ge_observed + 1) / (n_permutations + 1)
+residue_residue	0.6427878787878787	0.486010101010101	0.06560402637572225	0.5024242424242424	0.41375757575757577	0.5418484848484849	3	0	0.25	(n_null_ge_observed + 1) / (n_permutations + 1)
+combined_all	0.6236060606060606	0.4743838383838384	0.0724402311077948	0.488030303030303	0.3960909090909091	0.5390303030303031	3	0	0.25	(n_null_ge_observed + 1) / (n_permutations + 1)

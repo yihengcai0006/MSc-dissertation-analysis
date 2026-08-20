@@ -1,0 +1,25 @@
+setting	value
+batch	batch0100
+script_role	final classifier plotting and result packaging only
+models_refitted	False
+nested_cv_rerun	False
+feature_selection_rerun	False
+permutations_rerun	False
+stability_rerun	False
+primary_metric	balanced accuracy
+n_feature_sets	4
+n_outer_fold_model_records	100
+n_outer_folds_per_feature_set	25
+n_permutation_records	120
+n_permutations_per_feature_set	30
+dummy_mean_balanced_accuracy	0.5
+figure_08a_interpretation	descriptive repeated outer-CV balanced-accuracy distribution; folds are not independent replicates
+figure_08b_interpretation	permutation-level null distributions; each point is one complete label permutation
+label_source	old RF-predicted barriers
+scientific_limitation	classifier characterises old-model behaviour rather than measured or improved-QM/MM activation barriers
+python_version	3.11.15 | packaged by conda-forge | (main, Jun 11 2026, 03:34:02) [GCC 14.3.0]
+platform	Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39
+numpy_version	2.4.6
+pandas_version	3.0.3
+matplotlib_version	3.11.0
+scikit_learn_version	1.9.0

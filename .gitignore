@@ -1,0 +1,31 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Editor / OS files
+.vscode/
+.DS_Store
+*~
+*.tmp
+
+# Large raw February 2026 feature dataset
+thesis_features_analysis/data/raw/batch0100/features/*.parquet
+
+# Large RF model files (>100 MB)
+qmmm_validation_47_complete_20260801/model/rf_model_dist_below_10_new.pkl
+thesis_features_analysis/data/shared/model_features/rf_model_dist_below_10_new.pkl
+
+# PyMOL session files
+*.pse
+
+# Conda / notebook temporary files
+.conda/
+.ipynb_checkpoints/
+
+
+
+# Historical / duplicate release snapshots
+thesis_features_analysis/archive/
+thesis_features_analysis/release/
+thesis_features_analysis/release2/
+qmmm47_prefixed_feature_check/release/

@@ -1,0 +1,53 @@
+========================================================================
+Dummy baseline: prior strategy
+========================================================================
+Dummy split 1/25: BA=0.500, accuracy=0.647
+Dummy split 2/25: BA=0.500, accuracy=0.706
+Dummy split 3/25: BA=0.500, accuracy=0.706
+Dummy split 4/25: BA=0.500, accuracy=0.688
+Dummy split 5/25: BA=0.500, accuracy=0.688
+Dummy split 6/25: BA=0.500, accuracy=0.647
+Dummy split 7/25: BA=0.500, accuracy=0.706
+Dummy split 8/25: BA=0.500, accuracy=0.706
+Dummy split 9/25: BA=0.500, accuracy=0.688
+Dummy split 10/25: BA=0.500, accuracy=0.688
+Dummy split 11/25: BA=0.500, accuracy=0.647
+Dummy split 12/25: BA=0.500, accuracy=0.706
+Dummy split 13/25: BA=0.500, accuracy=0.706
+Dummy split 14/25: BA=0.500, accuracy=0.688
+Dummy split 15/25: BA=0.500, accuracy=0.688
+Dummy split 16/25: BA=0.500, accuracy=0.647
+Dummy split 17/25: BA=0.500, accuracy=0.706
+Dummy split 18/25: BA=0.500, accuracy=0.706
+Dummy split 19/25: BA=0.500, accuracy=0.688
+Dummy split 20/25: BA=0.500, accuracy=0.688
+Dummy split 21/25: BA=0.500, accuracy=0.647
+Dummy split 22/25: BA=0.500, accuracy=0.706
+Dummy split 23/25: BA=0.500, accuracy=0.706
+Dummy split 24/25: BA=0.500, accuracy=0.688
+Dummy split 25/25: BA=0.500, accuracy=0.688
+
+========================================================================
+Nested-CV summary
+========================================================================
+         model_type      feature_set  balanced_accuracy_mean  balanced_accuracy_std  roc_auc_low_mean  roc_auc_low_std  mcc_mean  mcc_std  recall_low_mean  precision_low_mean
+        dummy_prior      dummy_prior                0.500000               0.000000          0.500000         0.000000  0.000000 0.000000         0.000000            0.000000
+logistic_regression     combined_all                0.623606               0.144914          0.697879         0.140434  0.243922 0.279228         0.542667            0.468079
+logistic_regression residue_cofactor                0.594030               0.122313          0.617636         0.113036  0.177416 0.231295         0.572000            0.402994
+logistic_regression   residue_ligand                0.582879               0.117582          0.613939         0.163261  0.166227 0.235677         0.593333            0.396222
+logistic_regression  residue_residue                0.642788               0.118594          0.712242         0.132015  0.288759 0.234529         0.561333            0.516825
+
+Output row counts:
+  model metrics: 100
+  model predictions: 1660
+  best parameters: 100
+  selected-feature rows: 1644
+  dummy metrics: 25
+  dummy predictions: 415
+
+Saved outputs to:
+/home/yihengcai0006/yihengcai_ucl_essay_work/thesis_features_analysis/results/batch0100/nested_cv/final
+
+Total elapsed time: 8.49 minutes
+
+Done.

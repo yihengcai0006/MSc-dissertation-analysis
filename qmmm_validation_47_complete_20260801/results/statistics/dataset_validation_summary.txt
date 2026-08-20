@@ -1,0 +1,29 @@
+QMMM validation dataset integrity summary
+=========================================
+Old barrier rows: 43
+Old unique ligand IDs: 43
+New barrier rows: 47
+New unique ligand IDs: 47
+Common ligand IDs: 43
+Added ligand IDs: 4
+Removed ligand IDs: 0
+Complete PDB files: 47
+CSV IDs without PDB: 0
+PDB IDs without CSV: 0
+
+Added ligand IDs:
+  PV-000233762503
+  PV-000233762504
+  PV-000235112478
+  PV-000239559019
+
+Removed ligand IDs:
+  None
+
+CSV IDs without complete PDB:
+  None
+
+Complete PDB IDs without barrier:
+  None
+
+Dataset integrity: PASS

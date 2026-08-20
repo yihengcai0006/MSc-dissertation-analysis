@@ -1,0 +1,5 @@
+feature_type	n_features	n_quality_pass	n_welch_fdr_below_0_05	n_mannwhitney_fdr_below_0_05	n_pearson_fdr_below_0_05	median_abs_cohens_d	maximum_abs_cohens_d
+residue_residue	82461	61711	18	1	0	0.16248809734574612	1.2809610703735392
+residue_cofactor	407	346	1	0	0	0.14623375699901717	0.9691033714781933
+residue_ligand	407	352	0	0	0	0.32173902749917777	0.7921389149972257
+cofactor_ligand	1	1	0	0	0	0.15498855151537758	0.15498855151537758

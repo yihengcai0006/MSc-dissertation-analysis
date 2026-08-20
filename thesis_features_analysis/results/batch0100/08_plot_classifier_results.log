@@ -1,0 +1,40 @@
+========================================================================
+Batch0100 final classifier figures
+========================================================================
+
+Loading completed 05, 06 and 07 results...
+Cross-analysis consistency checks passed.
+
+Creating Figure 08A...
+Saved: 08A_nested_cv_balanced_accuracy.png
+Saved: 08A_nested_cv_balanced_accuracy.svg
+
+Creating Figure 08B...
+Saved: 08B_label_permutation_balanced_accuracy.png
+Saved: 08B_label_permutation_balanced_accuracy.svg
+
+========================================================================
+Final classifier numerical summary
+========================================================================
+     feature_set  mean_balanced_accuracy  std_balanced_accuracy  mean_roc_auc_low  mean_mcc  permutation_null_mean_ba  permutation_null_max_ba  n_null_ge_observed  permutation_p_value
+  residue_ligand                0.582879               0.117582          0.613939  0.166227                  0.506914                 0.623303                   3             0.129032
+residue_cofactor                0.594030               0.122313          0.617636  0.177416                  0.492322                 0.582121                   0             0.032258
+ residue_residue                0.642788               0.118594          0.712242  0.288759                  0.485059                 0.569636                   0             0.032258
+    combined_all                0.623606               0.144914          0.697879  0.243922                  0.488176                 0.563576                   0             0.032258
+
+Generated formal figures: 2
+  08A_nested_cv_balanced_accuracy
+  08B_label_permutation_balanced_accuracy
+
+Figure source rows:
+  Figure 08A: 101
+  Figure 08B: 120
+
+Saved results to:
+/home/yihengcai0006/yihengcai_ucl_essay_work/thesis_features_analysis/results/batch0100/classifier_figures
+
+No models were refitted.
+No feature selection was rerun.
+No permutations were rerun.
+
+Done.

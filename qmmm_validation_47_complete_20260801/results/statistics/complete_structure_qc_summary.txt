@@ -1,0 +1,16 @@
+Complete-structure QC summary
+=============================
+Structures checked: 47
+Expected ligand IDs: 47
+Atom-count minimum: 12507
+Atom-count maximum: 12536
+Atom-count mean: 12521.79
+Structures containing protein: 47/47
+Structures containing GTP: 47/47
+Structures containing Mg: 47/47
+Structures containing LIG: 47/47
+Structures with malformed atom lines: 0
+Expected IDs without PDB: 0
+Unexpected PDB IDs: 0
+
+Structure QC: PASS

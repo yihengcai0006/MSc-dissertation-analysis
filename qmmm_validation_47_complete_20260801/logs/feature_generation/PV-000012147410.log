@@ -1,0 +1,12 @@
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/MDAnalysis/topology/PDBParser.py:376: UserWarning: Element information is missing, elements attribute will not be populated. If needed these can be guessed using universe.guess_TopologyAttrs(context='default', to_guess=['elements']).
+  warnings.warn("Element information is missing, elements attribute "
+Computing original distance features...
+Raw generated columns: 61426
+Duplicate columns after cleaning: 0
+Required model features: 4086
+Missing required features: 0
+Written: /home/yihengcai0006/yihengcai_ucl_essay_work/qmmm_validation_47/features/per_ligand/PV-000012147410.parquet
+Rows: 1
+Feature columns: 4086
+Minimum distance: 0.40700000524520874
+Maximum distance: 12.35200023651123

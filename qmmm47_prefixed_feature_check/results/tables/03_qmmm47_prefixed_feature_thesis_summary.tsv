@@ -1,0 +1,4 @@
+feature	structural_label	batch0100_rr_selection_frequency	batch0100_combined_selection_frequency	n_unique	range_A	std_A	analysis_status	pearson_r_vs_improved_qmmm_barrier	spearman_rho_vs_improved_qmmm_barrier
+PRO62-PRO1279	GLU62-SER1279	1.0	1.0	45	2.386	0.5091050517786393	testable_variable	-0.09322020376895426	-0.009511969469180063
+PRO1275-PRO1276	PHE1275-ARG1276	0.88	0.84	1	0.0	2.244451569056615e-16	not_testable_invariant		
+PRO90-PRO92	PHE90-ASP92	0.84	0.8	1	0.0	4.48890313811323e-16	not_testable_invariant		

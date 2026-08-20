@@ -1,0 +1,27 @@
+Creating exploratory structural figures for batch0100...
+Saved ranking figure for residue_ligand: 10 features
+Saved ranking figure for residue_cofactor: 10 features
+Saved ranking figure for residue_residue: 15 features
+
+Representative features:
+    feature_type       feature  cohens_d  difference_high_minus_low  welch_p_value  welch_fdr_bh
+  residue_ligand     PRO66-LIG -0.723113                  -1.610247   9.760475e-03      0.930016
+residue_cofactor   PRO1274-GTP -0.669166                  -0.121571   8.070011e-03      0.930016
+ residue_residue PRO62-PRO1279 -1.280961                  -0.440351   1.113285e-07      0.001501
+
+Scientific figures created: 4
+1. Residue-ligand effect-size ranking
+2. Residue-cofactor effect-size ranking
+3. Residue-residue effect-size ranking
+4. Three-panel representative feature distribution figure
+
+Saved figures to:
+/home/yihengcai0006/yihengcai_ucl_essay_work/thesis_features_analysis/results/batch0100/figures/exploratory_structural_features
+
+Saved figure source data to:
+/home/yihengcai0006/yihengcai_ucl_essay_work/thesis_features_analysis/results/batch0100/figure_source_data
+
+Saved figure manifest:
+/home/yihengcai0006/yihengcai_ucl_essay_work/thesis_features_analysis/results/batch0100/tables/04_figure_manifest.tsv
+
+Done.

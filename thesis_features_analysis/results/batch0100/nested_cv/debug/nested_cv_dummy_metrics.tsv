@@ -1,0 +1,6 @@
+model_type	feature_set	outer_repeat	outer_fold	outer_split	n_train	n_test	n_train_low	n_train_high	n_test_low	n_test_high	accuracy	balanced_accuracy	roc_auc_low	precision_low	recall_low	f1_low	mcc	true_low_pred_low	true_low_pred_high	true_high_pred_low	true_high_pred_high
+dummy_prior	dummy_prior	1	1	1	66	17	20	46	6	11	0.6470588235294118	0.5	0.5	0.0	0.0	0.0	0.0	0	6	0	11
+dummy_prior	dummy_prior	1	2	2	66	17	21	45	5	12	0.7058823529411765	0.5	0.5	0.0	0.0	0.0	0.0	0	5	0	12
+dummy_prior	dummy_prior	1	3	3	66	17	21	45	5	12	0.7058823529411765	0.5	0.5	0.0	0.0	0.0	0.0	0	5	0	12
+dummy_prior	dummy_prior	1	4	4	67	16	21	46	5	11	0.6875	0.5	0.5	0.0	0.0	0.0	0.0	0	5	0	11
+dummy_prior	dummy_prior	1	5	5	67	16	21	46	5	11	0.6875	0.5	0.5	0.0	0.0	0.0	0.0	0	5	0	11

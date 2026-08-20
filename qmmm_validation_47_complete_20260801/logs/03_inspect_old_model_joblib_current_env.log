@@ -1,0 +1,28 @@
+Current scikit-learn version: 1.9.0
+Model path: /home/yihengcai0006/yihengcai_ucl_essay_work/qmmm_validation_47/model/rf_model_dist_below_10_new.pkl
+Feature-list path: /home/yihengcai0006/yihengcai_ucl_essay_work/qmmm_validation_47/model/dist_features_below_10_ang_list_new.npy
+Model class: sklearn.ensemble._forest.RandomForestRegressor
+Required feature count: 4086
+Model n_features_in_: 4086
+Feature count matches model: True
+Number of trees: 100
+
+First 10 required features:
+   1  PRO6-PRO7
+   2  PRO6-PRO8
+   3  PRO6-PRO9
+   4  PRO6-PRO16
+   5  PRO6-PRO19
+   6  PRO6-PRO20
+   7  PRO6-PRO23
+   8  PRO6-PRO24
+   9  PRO6-PRO37
+  10  PRO6-PRO38
+
+Top-level model parameters:
+n_estimators: 100
+max_depth: None
+min_samples_split: 2
+min_samples_leaf: 1
+max_features: 1.0
+random_state: None

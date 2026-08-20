@@ -1,0 +1,16 @@
+setting	value
+batch	batch0100
+n_feature_files	100
+n_parsed_barriers	100
+n_matched_ligands	100
+n_feature_columns	83276
+n_low	26
+n_middle	17
+n_high	57
+low_definition	barrier < 28
+middle_definition	28 <= barrier < 29
+high_definition	barrier >= 29
+n_feature_ids_without_barriers	0
+n_barrier_ids_without_features	0
+barrier_source	old RF-predicted barriers
+feature_schema_handling	union of parquet columns; missing values represented by NaN

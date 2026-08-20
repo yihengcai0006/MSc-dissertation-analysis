@@ -1,0 +1,12 @@
+Combined feature matrix summary
+===============================
+Ligands: 47
+Required feature columns: 4086
+Total matrix columns: 4087
+Duplicate molecule IDs: 0
+NaN values: 0
+Infinite values: 0
+Overall minimum distance: 0.355
+Overall maximum distance: 14.567
+Feature order matches model list: YES
+Ligand order matches barriers.csv: YES

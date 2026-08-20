@@ -1,0 +1,23 @@
+Feature source for qmmm47 pre-fixed feature exploratory check
+
+Source file:
+~/yihengcai_ucl_essay_work/qmmm_validation_47_complete_20260801/features/feature_matrix_47.parquet
+
+This feature matrix was generated previously during the corrected validation
+using 47 complete improved-QM/MM complexes.
+
+The complete structures were used directly:
+- no alignment;
+- no GTP transfer;
+- no ligand insertion;
+- no complex reconstruction.
+
+The present analysis does NOT perform new feature discovery and does NOT train
+a new classifier or regression model.
+
+Only three features fixed in advance from the independent February batch0100
+nested-CV stability analysis are examined:
+
+PRO62-PRO1279
+PRO1275-PRO1276
+PRO90-PRO92

@@ -1,0 +1,19 @@
+Old RF model copy verification
+==============================
+
+The following three available copies of the old RF model were compared:
+
+1. thesis_features_analysis/data/shared/model_features/
+2. thesis_features_analysis_backup_20260718/data/model_features/
+3. qmmm_validation_43/provenance/
+
+All three RF model files had the identical SHA256 hash:
+
+293fe68973ad904301d73808424a0bcc382cc1fd44a863b5b6978ff13f60c4b9
+
+All three feature-list files had the identical SHA256 hash:
+
+e41dd153e04fc53ccacae61bedea19893976773ff1877331b42113dae4948c24
+
+The copy from qmmm_validation_43/provenance was used for the corrected
+47-ligand complete-structure rerun.

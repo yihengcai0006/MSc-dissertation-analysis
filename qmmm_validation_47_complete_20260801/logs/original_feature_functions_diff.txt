@@ -1,0 +1,18 @@
+--- scripts_old43_reference/original_feature_functions_before_static_pdb_fix.py	2026-08-01 15:28:24.838936956 +0100
++++ scripts_old43_reference/original_feature_functions.py	2026-08-01 15:28:24.826936958 +0100
+@@ -67,7 +67,14 @@
+ 
+     # Pre-create selections and compute distances (PBC-aware if unit cell present)
+     sel_objs = {expr: u.select_atoms(expr) for expr in sel_exprs}
+-    box = u.dimensions if hasattr(u, "dimensions") and not np.allclose(u.dimensions[:3], 0) else None
++    dimensions = getattr(u, "dimensions", None)
++    box = (
++        dimensions
++        if dimensions is not None
++        and len(dimensions) >= 3
++        and not np.allclose(dimensions[:3], 0)
++        else None
++    )
+ 
+     # One row of results
+     row = np.empty(len(pairs), dtype=np.float32)

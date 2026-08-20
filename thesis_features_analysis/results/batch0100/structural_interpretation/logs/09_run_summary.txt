@@ -1,0 +1,32 @@
+Script 09: stable feature distribution analysis
+============================================================
+
+DATA PROVENANCE
+---------------
+Only the original February 2026 batch0100 classifier data were analysed.
+No August electrostatic-rerun coordinates or features were used.
+
+Input master table:
+/home/yihengcai0006/yihengcai_ucl_essay_work/thesis_features_analysis/results/batch0100/tables/features_with_barriers.parquet
+
+Input shape: (100, 83279)
+Analysis samples: 83
+Low: 26
+High: 57
+
+PRE-DEFINED FEATURES
+--------------------
+PRO62-PRO1279	GLU62–SER1279
+PRO1275-PRO1276	PHE1275–ARG1276
+PRO90-PRO92	PHE90–ASP92
+
+IMPORTANT INTERPRETATION NOTE
+-----------------------------
+These group comparisons are descriptive/post-hoc interpretations of features already identified by nested-CV stability. Their p-values are not independent confirmatory tests of newly specified hypotheses.
+
+SUMMARY
+-------
+        feature structural_label  n_low  n_high  low_mean_A  high_mean_A  low_median_A  high_median_A  low_std_A  high_std_A  low_iqr_A  high_iqr_A  high_minus_low_mean_A  low_minus_high_mean_A  cohens_d_low_minus_high  welch_t_statistic  welch_p_raw  mannwhitney_u  mannwhitney_p_raw  pearson_r_vs_old_rf_barrier  pearson_p_raw  pearson_n  spearman_rho_vs_old_rf_barrier  spearman_p_raw  spearman_n  welch_q_bh_3features  mannwhitney_q_bh_3features  pearson_q_bh_3features  spearman_q_bh_3features raw_distance_direction
+  PRO62-PRO1279    GLU62–SER1279     26      57    7.661808     7.221456         7.584          7.180   0.280051    0.368673    0.38225       0.352              -0.440352               0.440352                 1.280961           5.991853 1.113251e-07         1284.0       1.001497e-07                    -0.473298       0.000006         83                       -0.510372    8.263589e-07          83          3.339752e-07                3.004492e-07                0.000019                 0.000002          higher_in_low
+PRO1275-PRO1276  PHE1275–ARG1276     26      57    1.346308     1.344123         1.346          1.344   0.002035    0.002260    0.00300       0.002              -0.002185               0.002185                 0.996129           4.379099 5.579929e-05         1110.5       2.459874e-04                    -0.397296       0.000200         83                       -0.344656    1.419225e-03          83          6.553173e-05                3.689810e-04                0.000300                 0.002129          higher_in_low
+    PRO90-PRO92      PHE90–ASP92     26      57    3.189346     3.074877         3.180          3.082   0.107254    0.121257    0.07825       0.195              -0.114469               0.114469                 0.977415           4.325301 6.553173e-05         1101.5       4.083292e-04                    -0.362337       0.000762         83                       -0.300574    5.762826e-03          83          6.553173e-05                4.083292e-04                0.000762                 0.005763          higher_in_low

@@ -1,0 +1,18 @@
+setting	value
+batch	batch0100
+statistics_source	/home/yihengcai0006/yihengcai_ucl_essay_work/thesis_features_analysis/results/batch0100/tables/low_high_feature_ranking_all.tsv
+model_manifest_source	/home/yihengcai0006/yihengcai_ucl_essay_work/thesis_features_analysis/results/batch0100/tables/03_model_feature_manifest.tsv
+master_data_source	/home/yihengcai0006/yihengcai_ucl_essay_work/thesis_features_analysis/results/batch0100/tables/features_with_barriers.parquet
+n_model_used_features	4086
+n_residue_ligand	21
+n_residue_cofactor	83
+n_residue_residue	3982
+n_scientific_figures	4
+n_ranking_figures	3
+n_distribution_figures	1
+representative_selection_rule	largest absolute Cohen's d among quality-passing model-listed features within each feature type
+statistics_recalculated	False
+used_for_classifier_preselection	False
+barrier_source	old RF-predicted barriers
+interpretation	exploratory structural associations with old-model behaviour
+representative_features	PRO66-LIG; PRO1274-GTP; PRO62-PRO1279

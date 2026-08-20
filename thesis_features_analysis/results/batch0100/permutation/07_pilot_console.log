@@ -1,0 +1,67 @@
+========================================================================
+Batch0100 label-permutation test
+========================================================================
+Mode: pilot
+Samples: 83 (26 low, 57 high)
+Outer CV: 5 folds x 5 repeats
+Inner CV: 5 folds
+Permutations in this run: 3
+Permutation IDs: 1 to 3
+GridSearchCV n_jobs: 2
+
+Observed script-05 scores:
+     feature_set  observed_mean_balanced_accuracy  observed_mean_roc_auc_low  observed_mean_mcc  n_observed_outer_folds
+  residue_ligand                         0.582879                   0.613939           0.166227                      25
+residue_cofactor                         0.594030                   0.617636           0.177416                      25
+ residue_residue                         0.642788                   0.712242           0.288759                      25
+    combined_all                         0.623606                   0.697879           0.243922                      25
+
+========================================================================
+Permutation 1 (1/3)
+========================================================================
+  residue_ligand     BA=0.542 AUC=0.544 MCC=0.076 time=0.58 min
+  residue_cofactor   BA=0.504 AUC=0.517 MCC=0.011 time=0.71 min
+  residue_residue    BA=0.414 AUC=0.374 MCC=-0.168 time=3.40 min
+  combined_all       BA=0.396 AUC=0.358 MCC=-0.200 time=3.46 min
+Permutation 1 completed in 8.15 min
+Estimated remaining time for this batch: 16.7 min
+
+========================================================================
+Permutation 2 (2/3)
+========================================================================
+  residue_ligand     BA=0.507 AUC=0.531 MCC=0.009 time=0.52 min
+  residue_cofactor   BA=0.459 AUC=0.433 MCC=-0.074 time=0.70 min
+  residue_residue    BA=0.542 AUC=0.562 MCC=0.084 time=3.37 min
+  combined_all       BA=0.539 AUC=0.556 MCC=0.077 time=3.44 min
+Permutation 2 completed in 8.03 min
+Estimated remaining time for this batch: 8.2 min
+
+========================================================================
+Permutation 3 (3/3)
+========================================================================
+  residue_ligand     BA=0.503 AUC=0.525 MCC=0.007 time=0.52 min
+  residue_cofactor   BA=0.571 AUC=0.627 MCC=0.139 time=0.70 min
+  residue_residue    BA=0.502 AUC=0.498 MCC=0.006 time=3.40 min
+  combined_all       BA=0.488 AUC=0.466 MCC=-0.025 time=3.43 min
+Permutation 3 completed in 8.04 min
+Estimated remaining time for this batch: 0.0 min
+
+========================================================================
+Permutation-test summary
+========================================================================
+     feature_set  observed_mean_balanced_accuracy  null_mean_balanced_accuracy  null_std_balanced_accuracy  null_median_balanced_accuracy  null_min_balanced_accuracy  null_max_balanced_accuracy  n_permutations  n_null_ge_observed  permutation_p_value                                 p_value_formula
+  residue_ligand                         0.582879                     0.517444                    0.021232                       0.506970                    0.503485                    0.541879               3                   0                 0.25 (n_null_ge_observed + 1) / (n_permutations + 1)
+residue_cofactor                         0.594030                     0.511515                    0.056444                       0.504394                    0.458970                    0.571182               3                   0                 0.25 (n_null_ge_observed + 1) / (n_permutations + 1)
+ residue_residue                         0.642788                     0.486010                    0.065604                       0.502424                    0.413758                    0.541848               3                   0                 0.25 (n_null_ge_observed + 1) / (n_permutations + 1)
+    combined_all                         0.623606                     0.474384                    0.072440                       0.488030                    0.396091                    0.539030               3                   0                 0.25 (n_null_ge_observed + 1) / (n_permutations + 1)
+
+Output row counts:
+  permutation scores: 12
+  permutation outer-fold metrics: 300
+
+Saved outputs to:
+/home/yihengcai0006/yihengcai_ucl_essay_work/thesis_features_analysis/results/batch0100/permutation/pilot_perm0001_0003
+
+Total elapsed time: 24.43 minutes
+
+Done.

@@ -1,0 +1,15 @@
+name: thesis_features
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pyarrow
+  - numpy
+  - matplotlib
+  - pandas
+  - scikit-learn
+  - scipy
+  - biopython
+  - rdkit
+  - mdanalysis
+prefix: /home/yihengcai0006/miniforge3/envs/thesis_features

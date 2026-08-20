@@ -1,0 +1,5 @@
+feature_set	n_features	definition	formal_nested_cv_set
+residue_ligand	21	available model-listed PRO*-LIG distances	True
+residue_cofactor	83	available model-listed PRO*-GTP distances	True
+residue_residue	3982	available model-listed PRO*-PRO* distances	True
+combined_all	4086	union of residue_ligand, residue_cofactor and residue_residue	True

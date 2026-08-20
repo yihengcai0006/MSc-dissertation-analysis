@@ -1,0 +1,21 @@
+setting	value
+batch	batch0100
+master_table	/home/yihengcai0006/yihengcai_ucl_essay_work/thesis_features_analysis/results/batch0100/tables/features_with_barriers.parquet
+model_feature_file	/home/yihengcai0006/yihengcai_ucl_essay_work/thesis_features_analysis/data/shared/model_features/dist_features_below_10_ang_list_new.npy
+n_master_rows	100
+n_master_feature_columns	83276
+n_unique_model_features	4086
+n_duplicate_model_feature_names	0
+n_model_features_available	4086
+n_model_features_missing	0
+n_residue_ligand	21
+n_residue_cofactor	83
+n_residue_residue	3982
+n_combined_all	4086
+selection_uses_labels	False
+selection_uses_script_02_ranking	False
+global_preprocessing_applied	False
+formal_feature_sets	residue_ligand; residue_cofactor; residue_residue; combined_all
+cofactor_ligand_role	descriptive only; excluded from formal four-set comparison
+intended_use	candidate feature manifests for formal nested CV
+barrier_source	old RF-predicted barriers; not used by this script for feature selection

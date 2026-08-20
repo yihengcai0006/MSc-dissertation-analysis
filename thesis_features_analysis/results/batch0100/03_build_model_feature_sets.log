@@ -1,0 +1,30 @@
+Building predefined feature sets for batch0100...
+
+Reading master feature table...
+Master table shape: (100, 83279)
+
+Reading original RF distance-feature list...
+Unique model-listed features: 4086
+Duplicated names in source list: 0
+
+Formal feature-set summary:
+     feature_set  n_features                                                    definition  formal_nested_cv_set
+  residue_ligand          21                     available model-listed PRO*-LIG distances                  True
+residue_cofactor          83                     available model-listed PRO*-GTP distances                  True
+ residue_residue        3982                    available model-listed PRO*-PRO* distances                  True
+    combined_all        4086 union of residue_ligand, residue_cofactor and residue_residue                  True
+
+Additional categories:
+cofactor_ligand (descriptive only): 0
+other available features: 0
+missing model-listed features: 0
+
+Saved manifests to:
+/home/yihengcai0006/yihengcai_ucl_essay_work/thesis_features_analysis/results/batch0100/feature_sets
+
+Saved tabular summaries:
+/home/yihengcai0006/yihengcai_ucl_essay_work/thesis_features_analysis/results/batch0100/tables/03_model_feature_manifest.tsv
+/home/yihengcai0006/yihengcai_ucl_essay_work/thesis_features_analysis/results/batch0100/tables/03_feature_set_summary.tsv
+/home/yihengcai0006/yihengcai_ucl_essay_work/thesis_features_analysis/results/batch0100/tables/03_build_model_feature_sets_summary.tsv
+
+Done.

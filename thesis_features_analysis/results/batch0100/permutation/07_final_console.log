@@ -1,0 +1,817 @@
+========================================================================
+Batch0100 label-permutation test
+========================================================================
+Mode: final
+Samples: 83 (26 low, 57 high)
+Outer CV: 5 folds x 5 repeats
+Inner CV: 5 folds
+Permutations in this run: 30
+Permutation IDs: 1 to 30
+GridSearchCV n_jobs: 2
+
+Observed script-05 scores:
+     feature_set  observed_mean_balanced_accuracy  observed_mean_roc_auc_low  observed_mean_mcc  n_observed_outer_folds
+  residue_ligand                         0.582879                   0.613939           0.166227                      25
+residue_cofactor                         0.594030                   0.617636           0.177416                      25
+ residue_residue                         0.642788                   0.712242           0.288759                      25
+    combined_all                         0.623606                   0.697879           0.243922                      25
+
+========================================================================
+Permutation 1 (1/30)
+========================================================================
+  residue_ligand     BA=0.542 AUC=0.544 MCC=0.076 time=0.60 min
+  residue_cofactor   BA=0.504 AUC=0.517 MCC=0.011 time=0.70 min
+  residue_residue    BA=0.414 AUC=0.374 MCC=-0.168 time=3.43 min
+  combined_all       BA=0.396 AUC=0.358 MCC=-0.200 time=3.57 min
+Permutation 1 completed in 8.30 min
+Estimated remaining time for this batch: 246.7 min
+
+========================================================================
+Permutation 2 (2/30)
+========================================================================
+  residue_ligand     BA=0.507 AUC=0.531 MCC=0.009 time=0.53 min
+  residue_cofactor   BA=0.459 AUC=0.433 MCC=-0.074 time=0.70 min
+  residue_residue    BA=0.542 AUC=0.562 MCC=0.084 time=3.37 min
+  combined_all       BA=0.539 AUC=0.556 MCC=0.077 time=3.47 min
+Permutation 2 completed in 8.07 min
+Estimated remaining time for this batch: 232.1 min
+
+========================================================================
+Permutation 3 (3/30)
+========================================================================
+  residue_ligand     BA=0.503 AUC=0.525 MCC=0.007 time=0.52 min
+  residue_cofactor   BA=0.571 AUC=0.627 MCC=0.139 time=0.70 min
+  residue_residue    BA=0.502 AUC=0.498 MCC=0.006 time=3.39 min
+  combined_all       BA=0.488 AUC=0.466 MCC=-0.025 time=3.49 min
+Permutation 3 completed in 8.09 min
+Estimated remaining time for this batch: 222.0 min
+
+========================================================================
+Permutation 4 (4/30)
+========================================================================
+  residue_ligand     BA=0.535 AUC=0.566 MCC=0.068 time=0.55 min
+  residue_cofactor   BA=0.564 AUC=0.576 MCC=0.129 time=0.74 min
+  residue_residue    BA=0.531 AUC=0.565 MCC=0.057 time=3.46 min
+  combined_all       BA=0.536 AUC=0.552 MCC=0.062 time=3.66 min
+Permutation 4 completed in 8.41 min
+Estimated remaining time for this batch: 215.0 min
+
+========================================================================
+Permutation 5 (5/30)
+========================================================================
+  residue_ligand     BA=0.518 AUC=0.562 MCC=0.031 time=0.57 min
+  residue_cofactor   BA=0.463 AUC=0.406 MCC=-0.070 time=0.78 min
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3903] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3903] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3903] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3903] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3903] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3903] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3903] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3903] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3903] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3903] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3903] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3903] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3903] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3903] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3903] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3903] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3903] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3903] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3903] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3903] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+  residue_residue    BA=0.536 AUC=0.567 MCC=0.082 time=3.59 min
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4001] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4001] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4001] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4001] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4001] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4001] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4001] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4001] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4001] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4001] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4001] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4001] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4001] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4001] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4001] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4001] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4001] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4001] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4001] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4001] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+  combined_all       BA=0.536 AUC=0.560 MCC=0.084 time=3.77 min
+Permutation 5 completed in 8.72 min
+Estimated remaining time for this batch: 209.0 min
+
+========================================================================
+Permutation 6 (6/30)
+========================================================================
+  residue_ligand     BA=0.537 AUC=0.576 MCC=0.071 time=0.55 min
+  residue_cofactor   BA=0.471 AUC=0.459 MCC=-0.048 time=0.77 min
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3904] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3904] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3904] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3904] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3904] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3904] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3904] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3904] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3904] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3904] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3904] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3904] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3904] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3904] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3904] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3904] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3904] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3904] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3904] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3904] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+  residue_residue    BA=0.530 AUC=0.493 MCC=0.059 time=3.51 min
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4002] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4002] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4002] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4002] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4002] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4002] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4002] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4002] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4002] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4002] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4002] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4002] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4002] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4002] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4002] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4002] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4002] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4002] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4002] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4002] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+  combined_all       BA=0.530 AUC=0.497 MCC=0.063 time=3.60 min
+Permutation 6 completed in 8.44 min
+Estimated remaining time for this batch: 201.0 min
+
+========================================================================
+Permutation 7 (7/30)
+========================================================================
+  residue_ligand     BA=0.463 AUC=0.479 MCC=-0.077 time=0.52 min
+  residue_cofactor   BA=0.477 AUC=0.459 MCC=-0.036 time=0.70 min
+  residue_residue    BA=0.467 AUC=0.412 MCC=-0.071 time=3.40 min
+  combined_all       BA=0.471 AUC=0.417 MCC=-0.069 time=3.47 min
+Permutation 7 completed in 8.09 min
+Estimated remaining time for this batch: 191.7 min
+
+========================================================================
+Permutation 8 (8/30)
+========================================================================
+  residue_ligand     BA=0.454 AUC=0.396 MCC=-0.093 time=0.52 min
+  residue_cofactor   BA=0.454 AUC=0.391 MCC=-0.089 time=0.70 min
+  residue_residue    BA=0.474 AUC=0.488 MCC=-0.046 time=3.39 min
+  combined_all       BA=0.471 AUC=0.473 MCC=-0.052 time=3.49 min
+Permutation 8 completed in 8.10 min
+Estimated remaining time for this batch: 182.7 min
+
+========================================================================
+Permutation 9 (9/30)
+========================================================================
+  residue_ligand     BA=0.513 AUC=0.498 MCC=0.028 time=0.52 min
+  residue_cofactor   BA=0.447 AUC=0.431 MCC=-0.103 time=0.70 min
+  residue_residue    BA=0.548 AUC=0.554 MCC=0.091 time=3.37 min
+  combined_all       BA=0.553 AUC=0.554 MCC=0.101 time=3.50 min
+Permutation 9 completed in 8.10 min
+Estimated remaining time for this batch: 173.9 min
+
+========================================================================
+Permutation 10 (10/30)
+========================================================================
+  residue_ligand     BA=0.448 AUC=0.452 MCC=-0.098 time=0.52 min
+  residue_cofactor   BA=0.418 AUC=0.358 MCC=-0.166 time=0.70 min
+  residue_residue    BA=0.519 AUC=0.509 MCC=0.031 time=3.38 min
+  combined_all       BA=0.529 AUC=0.530 MCC=0.058 time=3.47 min
+Permutation 10 completed in 8.06 min
+Estimated remaining time for this batch: 165.2 min
+
+========================================================================
+Permutation 11 (11/30)
+========================================================================
+  residue_ligand     BA=0.465 AUC=0.455 MCC=-0.068 time=0.52 min
+  residue_cofactor   BA=0.496 AUC=0.516 MCC=0.000 time=0.70 min
+  residue_residue    BA=0.466 AUC=0.466 MCC=-0.067 time=3.40 min
+  combined_all       BA=0.461 AUC=0.471 MCC=-0.075 time=3.49 min
+Permutation 11 completed in 8.12 min
+Estimated remaining time for this batch: 156.7 min
+
+========================================================================
+Permutation 12 (12/30)
+========================================================================
+  residue_ligand     BA=0.440 AUC=0.418 MCC=-0.113 time=0.53 min
+  residue_cofactor   BA=0.509 AUC=0.512 MCC=0.017 time=0.70 min
+  residue_residue    BA=0.530 AUC=0.556 MCC=0.059 time=3.39 min
+  combined_all       BA=0.531 AUC=0.554 MCC=0.063 time=3.46 min
+Permutation 12 completed in 8.08 min
+Estimated remaining time for this batch: 148.2 min
+
+========================================================================
+Permutation 13 (13/30)
+========================================================================
+  residue_ligand     BA=0.537 AUC=0.575 MCC=0.073 time=0.52 min
+  residue_cofactor   BA=0.488 AUC=0.510 MCC=-0.023 time=0.70 min
+  residue_residue    BA=0.395 AUC=0.362 MCC=-0.210 time=3.37 min
+  combined_all       BA=0.390 AUC=0.349 MCC=-0.212 time=3.46 min
+Permutation 13 completed in 8.05 min
+Estimated remaining time for this batch: 139.7 min
+
+========================================================================
+Permutation 14 (14/30)
+========================================================================
+  residue_ligand     BA=0.590 AUC=0.600 MCC=0.170 time=0.52 min
+  residue_cofactor   BA=0.523 AUC=0.535 MCC=0.043 time=0.70 min
+  residue_residue    BA=0.499 AUC=0.486 MCC=-0.003 time=3.37 min
+  combined_all       BA=0.521 AUC=0.506 MCC=0.047 time=3.48 min
+Permutation 14 completed in 8.07 min
+Estimated remaining time for this batch: 131.3 min
+
+========================================================================
+Permutation 15 (15/30)
+========================================================================
+  residue_ligand     BA=0.516 AUC=0.494 MCC=0.029 time=0.52 min
+  residue_cofactor   BA=0.509 AUC=0.485 MCC=0.018 time=0.71 min
+  residue_residue    BA=0.428 AUC=0.414 MCC=-0.145 time=3.40 min
+  combined_all       BA=0.428 AUC=0.412 MCC=-0.144 time=3.49 min
+Permutation 15 completed in 8.12 min
+Estimated remaining time for this batch: 123.0 min
+
+========================================================================
+Permutation 16 (16/30)
+========================================================================
+  residue_ligand     BA=0.574 AUC=0.609 MCC=0.142 time=0.53 min
+  residue_cofactor   BA=0.461 AUC=0.397 MCC=-0.077 time=0.73 min
+  residue_residue    BA=0.435 AUC=0.396 MCC=-0.124 time=3.38 min
+  combined_all       BA=0.431 AUC=0.399 MCC=-0.132 time=3.46 min
+Permutation 16 completed in 8.10 min
+Estimated remaining time for this batch: 114.8 min
+
+========================================================================
+Permutation 17 (17/30)
+========================================================================
+  residue_ligand     BA=0.549 AUC=0.555 MCC=0.099 time=0.52 min
+  residue_cofactor   BA=0.537 AUC=0.567 MCC=0.076 time=0.70 min
+  residue_residue    BA=0.546 AUC=0.579 MCC=0.093 time=3.37 min
+  combined_all       BA=0.549 AUC=0.594 MCC=0.092 time=3.47 min
+Permutation 17 completed in 8.06 min
+Estimated remaining time for this batch: 106.4 min
+
+========================================================================
+Permutation 18 (18/30)
+========================================================================
+  residue_ligand     BA=0.623 AUC=0.641 MCC=0.242 time=0.52 min
+  residue_cofactor   BA=0.482 AUC=0.472 MCC=-0.038 time=0.70 min
+  residue_residue    BA=0.466 AUC=0.432 MCC=-0.070 time=3.38 min
+  combined_all       BA=0.463 AUC=0.442 MCC=-0.070 time=3.49 min
+Permutation 18 completed in 8.08 min
+Estimated remaining time for this batch: 98.2 min
+
+========================================================================
+Permutation 19 (19/30)
+========================================================================
+  residue_ligand     BA=0.412 AUC=0.353 MCC=-0.175 time=0.53 min
+  residue_cofactor   BA=0.509 AUC=0.465 MCC=0.016 time=0.70 min
+  residue_residue    BA=0.437 AUC=0.419 MCC=-0.126 time=3.41 min
+  combined_all       BA=0.424 AUC=0.410 MCC=-0.153 time=3.50 min
+Permutation 19 completed in 8.13 min
+Estimated remaining time for this batch: 90.0 min
+
+========================================================================
+Permutation 20 (20/30)
+========================================================================
+  residue_ligand     BA=0.520 AUC=0.519 MCC=0.039 time=0.52 min
+  residue_cofactor   BA=0.546 AUC=0.552 MCC=0.087 time=0.70 min
+  residue_residue    BA=0.570 AUC=0.575 MCC=0.140 time=3.41 min
+  combined_all       BA=0.564 AUC=0.556 MCC=0.128 time=3.62 min
+Permutation 20 completed in 8.25 min
+Estimated remaining time for this batch: 81.8 min
+
+========================================================================
+Permutation 21 (21/30)
+========================================================================
+  residue_ligand     BA=0.433 AUC=0.417 MCC=-0.134 time=0.58 min
+  residue_cofactor   BA=0.467 AUC=0.453 MCC=-0.068 time=0.76 min
+  residue_residue    BA=0.428 AUC=0.399 MCC=-0.138 time=3.59 min
+  combined_all       BA=0.436 AUC=0.399 MCC=-0.123 time=3.70 min
+Permutation 21 completed in 8.63 min
+Estimated remaining time for this batch: 73.8 min
+
+========================================================================
+Permutation 22 (22/30)
+========================================================================
+  residue_ligand     BA=0.521 AUC=0.494 MCC=0.036 time=0.57 min
+  residue_cofactor   BA=0.472 AUC=0.457 MCC=-0.053 time=0.74 min
+  residue_residue    BA=0.500 AUC=0.487 MCC=0.003 time=3.48 min
+  combined_all       BA=0.493 AUC=0.494 MCC=-0.006 time=3.60 min
+Permutation 22 completed in 8.38 min
+Estimated remaining time for this batch: 65.7 min
+
+========================================================================
+Permutation 23 (23/30)
+========================================================================
+  residue_ligand     BA=0.445 AUC=0.460 MCC=-0.104 time=0.56 min
+  residue_cofactor   BA=0.480 AUC=0.480 MCC=-0.038 time=0.75 min
+  residue_residue    BA=0.515 AUC=0.479 MCC=0.039 time=3.49 min
+  combined_all       BA=0.510 AUC=0.469 MCC=0.029 time=3.62 min
+Permutation 23 completed in 8.43 min
+Estimated remaining time for this batch: 57.6 min
+
+========================================================================
+Permutation 24 (24/30)
+========================================================================
+  residue_ligand     BA=0.519 AUC=0.501 MCC=0.036 time=0.54 min
+  residue_cofactor   BA=0.468 AUC=0.475 MCC=-0.066 time=0.74 min
+  residue_residue    BA=0.478 AUC=0.512 MCC=-0.045 time=3.53 min
+  combined_all       BA=0.506 AUC=0.533 MCC=0.010 time=3.61 min
+Permutation 24 completed in 8.42 min
+Estimated remaining time for this batch: 49.4 min
+
+========================================================================
+Permutation 25 (25/30)
+========================================================================
+  residue_ligand     BA=0.578 AUC=0.609 MCC=0.160 time=0.56 min
+  residue_cofactor   BA=0.484 AUC=0.474 MCC=-0.030 time=0.76 min
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3903] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3903] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3903] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3903] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3903] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3903] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3903] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3903] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3903] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3903] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3903] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3903] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3903] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3903] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3903] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3903] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3903] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3903] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3903] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [3903] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+  residue_residue    BA=0.520 AUC=0.546 MCC=0.038 time=3.50 min
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4001] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4001] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4001] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4001] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4001] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4001] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4001] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4001] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4001] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4001] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4001] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4001] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4001] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4001] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4001] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4001] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4001] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4001] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4001] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [4001] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/home/yihengcai0006/miniforge3/envs/thesis_features/lib/python3.11/site-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: divide by zero encountered in divide
+  f = msb / msw
+  combined_all       BA=0.533 AUC=0.544 MCC=0.065 time=3.64 min
+Permutation 25 completed in 8.46 min
+Estimated remaining time for this batch: 41.2 min
+
+========================================================================
+Permutation 26 (26/30)
+========================================================================
+  residue_ligand     BA=0.598 AUC=0.651 MCC=0.188 time=0.59 min
+  residue_cofactor   BA=0.499 AUC=0.480 MCC=0.002 time=0.78 min
+  residue_residue    BA=0.442 AUC=0.426 MCC=-0.119 time=3.63 min
+  combined_all       BA=0.462 AUC=0.438 MCC=-0.079 time=3.60 min
+Permutation 26 completed in 8.60 min
+Estimated remaining time for this batch: 33.0 min
+
+========================================================================
+Permutation 27 (27/30)
+========================================================================
+  residue_ligand     BA=0.466 AUC=0.489 MCC=-0.067 time=0.55 min
+  residue_cofactor   BA=0.582 AUC=0.558 MCC=0.159 time=0.76 min
+  residue_residue    BA=0.386 AUC=0.377 MCC=-0.222 time=3.51 min
+  combined_all       BA=0.410 AUC=0.380 MCC=-0.181 time=3.61 min
+Permutation 27 completed in 8.44 min
+Estimated remaining time for this batch: 24.8 min
+
+========================================================================
+Permutation 28 (28/30)
+========================================================================
+  residue_ligand     BA=0.390 AUC=0.348 MCC=-0.211 time=0.56 min
+  residue_cofactor   BA=0.526 AUC=0.524 MCC=0.054 time=0.74 min
+  residue_residue    BA=0.471 AUC=0.482 MCC=-0.055 time=3.54 min
+  combined_all       BA=0.500 AUC=0.475 MCC=0.007 time=3.55 min
+Permutation 28 completed in 8.40 min
+Estimated remaining time for this batch: 16.5 min
+
+========================================================================
+Permutation 29 (29/30)
+========================================================================
+  residue_ligand     BA=0.554 AUC=0.573 MCC=0.100 time=0.54 min
+  residue_cofactor   BA=0.463 AUC=0.471 MCC=-0.073 time=0.77 min
+  residue_residue    BA=0.460 AUC=0.455 MCC=-0.077 time=3.54 min
+  combined_all       BA=0.463 AUC=0.453 MCC=-0.070 time=3.60 min
+Permutation 29 completed in 8.45 min
+Estimated remaining time for this batch: 8.3 min
+
+========================================================================
+Permutation 30 (30/30)
+========================================================================
+  residue_ligand     BA=0.456 AUC=0.408 MCC=-0.088 time=0.57 min
+  residue_cofactor   BA=0.438 AUC=0.422 MCC=-0.119 time=0.74 min
+  residue_residue    BA=0.519 AUC=0.512 MCC=0.032 time=3.50 min
+  combined_all       BA=0.523 AUC=0.518 MCC=0.039 time=3.64 min
+Permutation 30 completed in 8.44 min
+Estimated remaining time for this batch: 0.0 min
+
+========================================================================
+Permutation-test summary
+========================================================================
+     feature_set  observed_mean_balanced_accuracy  null_mean_balanced_accuracy  null_std_balanced_accuracy  null_median_balanced_accuracy  null_min_balanced_accuracy  null_max_balanced_accuracy  n_permutations  n_null_ge_observed  permutation_p_value                                 p_value_formula
+  residue_ligand                         0.582879                     0.506914                    0.057951                       0.516985                    0.389636                    0.623303              30                   3             0.129032 (n_null_ge_observed + 1) / (n_permutations + 1)
+residue_cofactor                         0.594030                     0.492322                    0.039811                       0.483030                    0.418121                    0.582121              30                   0             0.032258 (n_null_ge_observed + 1) / (n_permutations + 1)
+ residue_residue                         0.642788                     0.485059                    0.049134                       0.488621                    0.386485                    0.569636              30                   0             0.032258 (n_null_ge_observed + 1) / (n_permutations + 1)
+    combined_all                         0.623606                     0.488176                    0.049971                       0.496682                    0.390212                    0.563576              30                   0             0.032258 (n_null_ge_observed + 1) / (n_permutations + 1)
+
+Output row counts:
+  permutation scores: 120
+  permutation outer-fold metrics: 3000
+
+Saved outputs to:
+/home/yihengcai0006/yihengcai_ucl_essay_work/thesis_features_analysis/results/batch0100/permutation/final_perm0001_0030
+
+Total elapsed time: 248.34 minutes
+
+Done.

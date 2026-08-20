@@ -1,0 +1,4 @@
+feature	n_rows	n_missing	n_unique	feature_present
+PRO62-PRO1279	47	0	45	True
+PRO1275-PRO1276	47	0	1	True
+PRO90-PRO92	47	0	1	True

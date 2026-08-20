@@ -1,0 +1,4 @@
+feature_type	feature_count	total_rf_importance	zero_variance_feature_count	near_zero_feature_count	importance_percentage
+protein-protein	3982	0.9869604664	3776	3785	98.6960466438
+protein-GTP	83	0.0102572003	81	81	1.0257200349
+protein-LIG	21	0.0027823332	0	0	0.2782333214

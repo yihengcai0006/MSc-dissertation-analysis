@@ -1,0 +1,23 @@
+setting	value
+batch	batch0100
+selected_features_source	/home/yihengcai0006/yihengcai_ucl_essay_work/thesis_features_analysis/results/batch0100/nested_cv/final/nested_cv_selected_features.tsv
+best_parameters_source	/home/yihengcai0006/yihengcai_ucl_essay_work/thesis_features_analysis/results/batch0100/nested_cv/final/nested_cv_best_parameters.tsv
+feature_manifest_source	/home/yihengcai0006/yihengcai_ucl_essay_work/thesis_features_analysis/results/batch0100/nested_cv/final/feature_set_manifest.tsv
+analysis_type	post-hoc analysis of nested-CV training-fold feature selections
+models_refitted_in_script_06	False
+outer_splits_per_feature_set	25
+primary_stability_measure	feature selection frequency
+supplementary_global_measure	pairwise Jaccard similarity
+jaccard_limitation	selected-set sizes vary because k was tuned independently within each outer-training fold
+coefficient_reference_class	low
+target_candidates	PRO62-PRO1279; PRO1275-PRO1276; PRO90-PRO92
+n_scientific_figures	2
+n_stability_rows	8172
+n_pairwise_jaccard_rows	1200
+n_candidate_rows	6
+barrier_source	old RF-predicted barriers
+interpretation	selection reproducibility for old-model low/high classification; not causal barrier determinants
+python_version	3.11.15 | packaged by conda-forge | (main, Jun 11 2026, 03:34:02) [GCC 14.3.0]
+platform	Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39
+numpy_version	2.4.6
+pandas_version	3.0.3

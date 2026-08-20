@@ -1,0 +1,17 @@
+setting	value
+batch	batch0100
+input_file	/home/yihengcai0006/yihengcai_ucl_essay_work/thesis_features_analysis/results/batch0100/tables/features_with_barriers.parquet
+barrier_source	old RF-predicted barriers
+n_low	26
+n_high	57
+n_low_high_total	83
+n_feature_columns	83276
+n_quality_pass	62410
+cohens_d_definition	mean(high) - mean(low)
+minimum_low_count	20
+minimum_high_count	40
+maximum_missing_fraction	0.1
+minimum_unique_values	5
+near_zero_std_threshold	1e-08
+fdr_scope	all analysed feature columns
+analysis_role	exploratory all-feature low/high comparison

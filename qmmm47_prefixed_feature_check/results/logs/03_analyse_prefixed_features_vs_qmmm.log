@@ -1,0 +1,11 @@
+QMMM47 pre-fixed feature exploratory analysis
+============================================================
+
+The three structural features were fixed in advance from the independent February batch0100 nested-CV stability analysis. No feature screening of the 47 improved-QM/MM structures was performed.
+
+        feature structural_label  batch0100_rr_selection_frequency  batch0100_combined_selection_frequency  n_structures  n_unique   mean_A  median_A        std_A  min_A  max_A  range_A  iqr_A  coefficient_of_variation        analysis_status  correlation_n  pearson_r_vs_improved_qmmm_barrier  pearson_p_raw  spearman_rho_vs_improved_qmmm_barrier  spearman_p_raw
+  PRO62-PRO1279    GLU62-SER1279                              1.00                                    1.00            47        45 6.873213     6.993 5.091051e-01  5.161  7.547    2.386  0.351              7.407090e-02      testable_variable             47                            -0.09322        0.53313                              -0.009512        0.949403
+PRO1275-PRO1276  PHE1275-ARG1276                              0.88                                    0.84            47         1 1.347000     1.347 2.244452e-16  1.347  1.347    0.000  0.000              1.666260e-16 not_testable_invariant              0                                 NaN            NaN                                    NaN             NaN
+    PRO90-PRO92      PHE90-ASP92                              0.84                                    0.80            47         1 3.103000     3.103 4.488903e-16  3.103  3.103    0.000  0.000              1.446633e-16 not_testable_invariant              0                                 NaN            NaN                                    NaN             NaN
+
+Invariant features were not subjected to Pearson or Spearman correlation because correlation is undefined for a constant predictor.

@@ -1,0 +1,57 @@
+========================================================================
+Batch0100 label-permutation test
+========================================================================
+Mode: debug
+Samples: 83 (26 low, 57 high)
+Outer CV: 5 folds x 1 repeats
+Inner CV: 3 folds
+Permutations in this run: 2
+Permutation IDs: 1 to 2
+GridSearchCV n_jobs: 1
+
+Observed script-05 scores:
+     feature_set  observed_mean_balanced_accuracy  observed_mean_roc_auc_low  observed_mean_mcc  n_observed_outer_folds
+  residue_ligand                         0.582879                   0.613939           0.166227                      25
+residue_cofactor                         0.594030                   0.617636           0.177416                      25
+ residue_residue                         0.642788                   0.712242           0.288759                      25
+    combined_all                         0.623606                   0.697879           0.243922                      25
+
+========================================================================
+Permutation 1 (1/2)
+========================================================================
+  residue_ligand     BA=0.513 AUC=0.493 MCC=0.023 time=0.13 min
+  residue_cofactor   BA=0.492 AUC=0.527 MCC=-0.018 time=0.17 min
+  residue_residue    BA=0.538 AUC=0.385 MCC=0.079 time=0.75 min
+  combined_all       BA=0.527 AUC=0.378 MCC=0.059 time=0.75 min
+Permutation 1 completed in 1.79 min
+Estimated remaining time for this batch: 2.0 min
+
+========================================================================
+Permutation 2 (2/2)
+========================================================================
+  residue_ligand     BA=0.517 AUC=0.541 MCC=0.031 time=0.12 min
+  residue_cofactor   BA=0.422 AUC=0.363 MCC=-0.144 time=0.16 min
+  residue_residue    BA=0.612 AUC=0.571 MCC=0.214 time=0.73 min
+  combined_all       BA=0.596 AUC=0.579 MCC=0.184 time=0.73 min
+Permutation 2 completed in 1.73 min
+Estimated remaining time for this batch: 0.0 min
+
+========================================================================
+Permutation-test summary
+========================================================================
+     feature_set  observed_mean_balanced_accuracy  null_mean_balanced_accuracy  null_std_balanced_accuracy  null_median_balanced_accuracy  null_min_balanced_accuracy  null_max_balanced_accuracy  n_permutations  n_null_ge_observed  permutation_p_value                                 p_value_formula
+  residue_ligand                         0.582879                     0.515152                    0.002357                       0.515152                    0.513485                    0.516818               2                   0             0.333333 (n_null_ge_observed + 1) / (n_permutations + 1)
+residue_cofactor                         0.594030                     0.457121                    0.049497                       0.457121                    0.422121                    0.492121               2                   0             0.333333 (n_null_ge_observed + 1) / (n_permutations + 1)
+ residue_residue                         0.642788                     0.575000                    0.052926                       0.575000                    0.537576                    0.612424               2                   0             0.333333 (n_null_ge_observed + 1) / (n_permutations + 1)
+    combined_all                         0.623606                     0.561212                    0.048855                       0.561212                    0.526667                    0.595758               2                   0             0.333333 (n_null_ge_observed + 1) / (n_permutations + 1)
+
+Output row counts:
+  permutation scores: 8
+  permutation outer-fold metrics: 40
+
+Saved outputs to:
+/home/yihengcai0006/yihengcai_ucl_essay_work/thesis_features_analysis/results/batch0100/permutation/debug_perm0001_0002
+
+Total elapsed time: 3.74 minutes
+
+Done.
